@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tedu</groupId>
-	<artifactId>sp03-userservice</artifactId>
+	<artifactId>sp02-itemservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sp03-userservice</name>
+	<name>sp02-itemservice</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -41,10 +41,6 @@
 		spring-cloud-starter-netflix-eureka-client
 	</artifactId>
 			<version>2.1.1.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
